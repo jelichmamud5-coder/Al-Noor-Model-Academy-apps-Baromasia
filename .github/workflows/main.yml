@@ -1,0 +1,1161 @@
+Create a complete, professional, production-ready Android School Management System for:
+
+SCHOOL NAME:
+AL-NOOR MODEL ACADEMY
+
+RUN BY:
+Baromasia Al Nur Academy Foundation
+
+IMPORTANT:
+Build this as a complete School Management Web-App-like Android application, not as a simple static Android app.
+
+The application must have a modern responsive dashboard, cloud database, secure authentication, role-based permissions, PDF generation, printing/sharing support, online payment support, notifications, search, reports and complete school administration features.
+
+==================================================
+1. USER ROLES & LOGIN
+==================================================
+
+Create completely separate secure login systems for:
+
+1. SUPER ADMIN / SCHOOL AUTHORITY
+2. TEACHER
+3. PARENT
+4. STUDENT
+
+Each user must have a unique Login ID/Email/Mobile Number and Password.
+
+SUPER ADMIN:
+- Full access to the entire application
+- Can create, edit, delete and customize almost every module
+- Can create Teacher, Parent and Student accounts
+- Can assign permissions
+- Can change school settings
+- Can customize dashboard, menu and modules
+- Can manage all school data
+
+TEACHER:
+Teachers must NOT have Super Admin permissions.
+
+Teacher can:
+- Teacher profile
+- Self attendance
+- Student attendance
+- View assigned classes
+- View assigned subjects
+- Add/edit marks for assigned subjects/classes
+- Submit marks
+- Generate/view results according to permission
+- Create question papers according to selected syllabus
+- View class routine
+- View notices
+- Upload study materials/homework
+- View student basic information
+
+PARENT:
+Parent can ONLY:
+- Login
+- View linked child/children
+- View results/marksheet
+- View examination results
+- View fees
+- View paid amount
+- View outstanding/dues amount
+- View payment history
+- Download/print receipts if permitted
+- Receive school notices
+
+Parent must NOT be able to edit marks, attendance, student information or school settings.
+
+STUDENT:
+Student can ONLY:
+- Login
+- View own profile
+- View attendance
+- View results/marksheet
+- View examination results
+- View fees
+- View paid/dues/clear amount
+- View class routine
+- View homework/study materials
+- View school notices
+
+Student cannot modify official data.
+
+==================================================
+2. SUPER ADMIN CUSTOMIZATION SYSTEM
+==================================================
+
+The entire app must be dynamically customizable from the Super Admin dashboard.
+
+Do NOT hard-code school information.
+
+Super Admin must be able to add/edit:
+
+- School Name
+- School Logo
+- School Address
+- Village
+- Post Office
+- District
+- State
+- PIN
+- Contact Number
+- WhatsApp Number
+- Email
+- Website
+- Government Registration Number
+- School Code
+- Affiliation/Recognition Number
+- Academic Session
+- Principal/Headmaster Name
+- School Description
+- School Motto
+- School Signature
+- Principal Signature
+- School Stamp/Seal
+- School Header
+- School Footer
+
+These details must automatically appear on:
+- Admit Card
+- Marksheet
+- Result
+- Fee Receipt
+- Certificates
+- Notices
+- Reports
+- Question Papers
+- PDF documents
+
+Super Admin must be able to upload/change school logo and principal signature at any time.
+
+==================================================
+3. SCHOOL SETTINGS
+==================================================
+
+Create a complete Settings module.
+
+Super Admin can configure:
+
+- Academic Year/Session
+- Terms/Examinations
+- Classes
+- Sections
+- Subjects
+- Teachers
+- Grading system
+- Marks system
+- Pass marks
+- Full marks
+- Attendance rules
+- Fee structure
+- Payment methods
+- Receipt format
+- ID card format
+- Admit card format
+- Marksheet format
+- Certificate format
+- School timing
+- Working days
+- Holidays
+- Notification settings
+
+Examination system must support:
+
+- 1st Term
+- 2nd Term
+- 3rd Term
+
+But Super Admin must also be able to add, rename, edit or delete examination types.
+
+==================================================
+4. CLASS MANAGEMENT
+==================================================
+
+Support classes:
+
+LKG
+UKG
+Class-I
+Class-II
+Class-III
+Class-IV
+Class-V
+Class-VI
+Class-VII
+Class-VIII
+Class-IX
+Class-X
+
+Super Admin can:
+- Add classes
+- Edit classes
+- Delete classes
+- Add sections
+- Assign class teacher
+- Assign subjects
+- Assign teachers
+- Promote students
+- Transfer students
+- Archive students
+
+==================================================
+5. STUDENT ADMISSION SYSTEM
+==================================================
+
+Create complete Student Admission module.
+
+Student fields:
+
+- Student ID
+- Admission Number
+- Registration Number
+- Roll Number
+- Student Name
+- Date of Birth
+- Gender
+- Blood Group
+- Religion (optional)
+- Category
+- Aadhaar/ID number (optional)
+- Student Photo
+- Father Name
+- Mother Name
+- Guardian Name
+- Parent Mobile
+- Alternate Mobile
+- Email
+- Address
+- Village
+- Post Office
+- District
+- State
+- PIN
+- Previous School
+- Admission Date
+- Class
+- Section
+- Academic Session
+
+Generate unique Student ID automatically.
+
+Allow:
+- Add
+- Edit
+- Search
+- Filter
+- View
+- Transfer
+- Promote
+- Archive
+- Export
+- Print
+
+==================================================
+6. TEACHER MANAGEMENT
+==================================================
+
+Super Admin can manage teachers.
+
+Teacher information:
+
+- Teacher ID
+- Name
+- Photo
+- Gender
+- Date of Birth
+- Qualification
+- Subject
+- Mobile
+- Email
+- Address
+- Joining Date
+- Designation
+- Employee ID
+- Salary information
+- Assigned Classes
+- Assigned Subjects
+- Login ID
+- Password reset
+
+Teacher recruitment module:
+- Applicant information
+- Application status
+- Interview status
+- Selected/Rejected
+- Joining record
+
+==================================================
+7. ATTENDANCE SYSTEM
+==================================================
+
+Teacher can mark:
+
+A = Present
+P = Absent
+L = Late
+H = Holiday
+
+Features:
+- Student attendance
+- Teacher self attendance
+- Daily attendance
+- Monthly attendance
+- Class-wise attendance
+- Student-wise attendance
+- Attendance percentage
+- Monthly attendance report
+- Date-wise report
+
+Super Admin can edit attendance if necessary.
+
+Parents/Students can view attendance but cannot edit it.
+
+==================================================
+8. EXAMINATION & MARKS SYSTEM
+==================================================
+
+Create complete examination management.
+
+Super Admin can create:
+- Examination
+- Term
+- Subject
+- Full Marks
+- Pass Marks
+- Exam Date
+- Exam Time
+- Syllabus
+
+Teacher can enter marks only for assigned classes/subjects.
+
+Support:
+- Written
+- MCQ
+- Practical
+- Internal Assessment
+- Project
+- Viva
+- Attendance marks
+
+Automatic calculation:
+- Total marks
+- Percentage
+- Grade
+- Pass/Fail
+- Position/Rank if enabled by Super Admin
+
+Super Admin must be able to customize grading rules.
+
+==================================================
+9. RESULT SYSTEM
+==================================================
+
+Automatically generate student results.
+
+Result should contain:
+
+School Logo
+School Name
+Address
+Registration Number
+Academic Session
+Exam Name
+Student Name
+Student ID
+Admission No
+Roll No
+Class
+Section
+Subject-wise marks
+Full marks
+Pass marks
+Grade
+Total
+Percentage
+Result status
+Attendance
+Teacher remarks
+Principal remarks
+
+Generate professional PDF marksheet.
+
+Allow:
+- Preview
+- Download
+- Print
+- Share
+
+Principal signature and school seal must automatically appear.
+
+==================================================
+10. ADMIT CARD GENERATOR
+==================================================
+
+Create professional Admit Card generator.
+
+Automatically include:
+
+School Logo
+School Name
+Address
+Registration Number
+Exam Name
+Academic Session
+Student Photo
+Student Name
+Roll
+Admission Number
+Registration Number
+Class
+Section
+Exam Date
+Subject
+Exam Time
+Exam Room
+Principal Signature
+School Seal
+
+Generate printable PDF.
+
+==================================================
+11. QUESTION PAPER GENERATOR
+==================================================
+
+Create an advanced Question Paper Generator.
+
+Teacher/Super Admin can select:
+
+Academic Session
+Class
+Subject
+Term
+Chapter
+Topic
+Syllabus
+Full Marks
+Time
+
+Question types:
+- MCQ
+- Fill in the blanks
+- True/False
+- Match the following
+- Short answer
+- Long answer
+- Very short answer
+- Numerical questions
+
+Allow:
+- Manual question entry
+- Question bank
+- Save questions
+- Reuse questions
+- Random question selection
+- Question numbering
+- Marks per question
+- Automatic total marks
+- School logo/header
+- Teacher name
+- Exam name
+- Class
+- Subject
+- Time
+- Full marks
+
+Generate professional PDF question paper.
+
+==================================================
+12. SYLLABUS MANAGEMENT
+==================================================
+
+Super Admin can create syllabus for:
+
+Class
+Subject
+Term
+Chapter
+Topic
+Learning objectives
+
+Teacher can see syllabus according to assigned class/subject.
+
+Question Paper Generator should use this syllabus.
+
+==================================================
+13. FEES MANAGEMENT
+==================================================
+
+Create complete School Fee Management System.
+
+Super Admin can create:
+
+- Admission Fee
+- Monthly Tuition Fee
+- Examination Fee
+- Development Fee
+- Computer Fee
+- Transport Fee
+- Library Fee
+- Laboratory Fee
+- Annual Fee
+- Other Fees
+
+Super Admin can customize fee categories.
+
+For every student show:
+
+Total Fee
+Paid Amount
+Discount
+Due Amount
+Payment Status
+Payment History
+
+Payment modes:
+- Cash
+- Online
+- UPI
+- Bank Transfer
+- Other
+
+Online payment integration must be designed so that a supported payment gateway can be connected later.
+
+==================================================
+14. FEE RECEIPT
+==================================================
+
+Generate professional fee receipt.
+
+Receipt includes:
+
+School Logo
+School Name
+Address
+Registration Number
+Receipt Number
+Date
+Student Name
+Student ID
+Admission No
+Class
+Roll
+Fee Type
+Amount
+Discount
+Paid Amount
+Due Amount
+Payment Mode
+Transaction ID
+Received By
+Principal/Authority signature
+
+Allow PDF:
+- Download
+- Print
+- Share
+
+==================================================
+15. FEE DUE MANAGEMENT
+==================================================
+
+Super Admin dashboard must show:
+
+- Total fees
+- Total collected
+- Total outstanding
+- Today's collection
+- Monthly collection
+- Student-wise dues
+- Class-wise dues
+- Paid students
+- Unpaid students
+- Partially paid students
+
+Create fee reports with filters.
+
+==================================================
+16. CLASS ROUTINE / TIMETABLE
+==================================================
+
+Create timetable management.
+
+Super Admin can configure:
+
+- School start time
+- Periods
+- Break
+- Lunch
+- Subjects
+- Teacher/Sir/Ma'am
+- Class
+- Section
+- Day
+
+Generate:
+
+Daily timetable
+Weekly timetable
+Class-wise timetable
+Teacher-wise timetable
+
+Students/Parents can view timetable.
+
+==================================================
+17. HOMEWORK & STUDY MATERIAL
+==================================================
+
+Teacher can:
+- Add homework
+- Upload PDF
+- Upload images
+- Add notes
+- Add study material
+- Set class
+- Set subject
+- Set deadline
+
+Students/Parents can view/download according to permission.
+
+==================================================
+18. NOTICE & ANNOUNCEMENT
+==================================================
+
+Super Admin can publish:
+
+- School notices
+- Exam notices
+- Holiday notices
+- Fee reminders
+- Events
+- Emergency announcements
+
+Teacher can publish notices only if Super Admin gives permission.
+
+Users receive notifications.
+
+==================================================
+19. DIGITAL CERTIFICATE SYSTEM
+==================================================
+
+Create certificate generator for:
+
+- Transfer Certificate
+- Bonafide Certificate
+- Character Certificate
+- Achievement Certificate
+- Participation Certificate
+- Appreciation Certificate
+
+Super Admin can customize certificate templates.
+
+Include:
+School Logo
+School Name
+Registration Number
+Student information
+Certificate number
+Date
+Principal signature
+School seal
+
+Generate PDF.
+
+==================================================
+20. STUDENT ID CARD
+==================================================
+
+Generate professional Student ID Cards.
+
+Include:
+- School logo
+- Student photo
+- Student name
+- Student ID
+- Admission No
+- Class
+- Section
+- Roll
+- Parent mobile
+- School contact
+- School address
+- QR code
+
+==================================================
+21. TEACHER ID CARD
+==================================================
+
+Generate Teacher ID Card with:
+- Photo
+- Teacher ID
+- Employee ID
+- Name
+- Designation
+- Subject
+- Mobile
+- School details
+- QR code
+
+==================================================
+22. DASHBOARD
+==================================================
+
+SUPER ADMIN DASHBOARD:
+
+Show cards for:
+- Total Students
+- Total Teachers
+- Total Classes
+- Today's Attendance
+- Today's Fee Collection
+- Total Fee Due
+- Upcoming Exams
+- Notices
+- Recent Admissions
+
+Include charts for:
+- Student attendance
+- Fee collection
+- Results
+- Class strength
+
+TEACHER DASHBOARD:
+- Today's classes
+- Attendance
+- Assigned students
+- Marks entry
+- Exams
+- Homework
+- Notices
+
+PARENT DASHBOARD:
+- Child profile
+- Attendance
+- Results
+- Fees
+- Dues
+- Routine
+- Notices
+
+STUDENT DASHBOARD:
+- Profile
+- Attendance
+- Results
+- Fees
+- Routine
+- Homework
+- Study materials
+- Notices
+
+==================================================
+23. SEARCH & FILTER
+==================================================
+
+Global search for:
+
+Student
+Teacher
+Admission No
+Registration No
+Roll No
+Student ID
+Class
+Section
+Fees
+Results
+Attendance
+Exams
+
+Use advanced filtering and sorting.
+
+==================================================
+24. REPORT SYSTEM
+==================================================
+
+Generate reports for:
+
+- Student list
+- Teacher list
+- Attendance
+- Monthly attendance
+- Examination
+- Marks
+- Results
+- Fee collection
+- Fee dues
+- Admission
+- Class strength
+- Teacher attendance
+- Homework
+- School statistics
+
+Reports should support:
+PDF
+Print
+Share
+Excel/CSV export where appropriate.
+
+==================================================
+25. NOTIFICATION SYSTEM
+==================================================
+
+Use push notifications.
+
+Send notifications for:
+- New notice
+- Exam announcement
+- Result published
+- Fee due reminder
+- Fee payment confirmation
+- Homework
+- Attendance alerts
+- School events
+
+==================================================
+26. SECURITY
+==================================================
+
+Implement secure authentication and authorization.
+
+Use role-based access control.
+
+Never allow:
+Teacher -> Super Admin functions
+Parent -> Admin functions
+Student -> Admin functions
+
+Use secure password authentication.
+
+Passwords must never be stored as plain text.
+
+Use secure database rules.
+
+Prevent unauthorized access to student marks, fees and personal information.
+
+Add:
+- Password reset
+- Logout
+- Session management
+- Account activation/deactivation
+- User permission management
+- Audit logs
+
+==================================================
+27. DATABASE
+==================================================
+
+Use a scalable cloud database such as Firebase.
+
+Suggested collections/tables:
+
+users
+admins
+teachers
+parents
+students
+classes
+sections
+subjects
+academic_sessions
+examinations
+syllabus
+question_bank
+question_papers
+attendance
+teacher_attendance
+marks
+results
+fees
+fee_payments
+fee_receipts
+timetable
+homework
+study_materials
+notices
+certificates
+id_cards
+school_settings
+app_settings
+notifications
+audit_logs
+
+Database structure must be scalable and secure.
+
+==================================================
+28. FIREBASE
+==================================================
+
+Integrate:
+
+Firebase Authentication
+Cloud Firestore
+Firebase Storage
+Firebase Cloud Messaging
+
+Store:
+- School logo
+- Student photos
+- Teacher photos
+- Principal signature
+- Documents
+- Study materials
+- Generated files
+
+in secure Firebase Storage.
+
+==================================================
+29. SUPER ADMIN PERMISSION SYSTEM
+==================================================
+
+Super Admin must have a Permission Manager.
+
+Allow Super Admin to enable/disable permissions for teachers.
+
+Example:
+
+[✓] Attendance
+[✓] Marks Entry
+[✓] Result
+[✓] Question Paper
+[✓] Homework
+[✓] Study Material
+[ ] Fee Management
+[ ] Student Admission
+[ ] Teacher Management
+[ ] School Settings
+
+Super Admin can decide exactly what each teacher can access.
+
+==================================================
+30. APP CUSTOMIZATION
+==================================================
+
+The app should behave like a website/CMS.
+
+Super Admin can customize:
+
+- School logo
+- School name
+- Colors
+- Theme
+- Dashboard
+- Menu visibility
+- School information
+- Contact details
+- Academic session
+- Classes
+- Subjects
+- Exams
+- Fee structure
+- Grading system
+- Document templates
+- Notifications
+- User permissions
+
+Do not hard-code these settings.
+
+==================================================
+31. UI/UX
+==================================================
+
+Create a modern professional UI.
+
+Requirements:
+- Responsive
+- Mobile-first
+- Clean dashboard
+- Sidebar/navigation drawer
+- Bottom navigation where appropriate
+- Cards
+- Tables
+- Search
+- Filters
+- Date pickers
+- Dropdowns
+- Confirmation dialogs
+- Loading indicators
+- Error messages
+- Empty states
+
+Support:
+Light Mode
+Dark Mode
+
+Use a professional school-management design.
+
+==================================================
+32. DOCUMENT GENERATION
+==================================================
+
+All important documents must be generated dynamically using current school settings.
+
+Documents:
+- Admit Card
+- Marksheet
+- Result
+- Fee Receipt
+- Question Paper
+- Student ID Card
+- Teacher ID Card
+- Certificates
+- Reports
+
+Never permanently hard-code school logo/name/address into PDFs.
+
+==================================================
+33. BACKUP & DATA MANAGEMENT
+==================================================
+
+Super Admin should have:
+
+- Backup information
+- Export data
+- Import data
+- Archive academic year
+- Restore where technically possible
+- Delete/restore records according to permission
+
+Add confirmation before destructive operations.
+
+==================================================
+34. MULTI-ACADEMIC-YEAR SYSTEM
+==================================================
+
+Allow Super Admin to create:
+
+2026
+2027
+2028
+etc.
+
+Each academic year should maintain separate:
+
+Students
+Classes
+Teachers
+Attendance
+Exams
+Marks
+Results
+Fees
+Routine
+Reports
+
+Allow student promotion from one academic year to another.
+
+==================================================
+35. IMPORTANT TECHNICAL REQUIREMENTS
+==================================================
+
+Use a clean architecture.
+
+Recommended:
+
+Kotlin
+Jetpack Compose
+MVVM / Clean Architecture
+Firebase Authentication
+Cloud Firestore
+Firebase Storage
+Firebase Cloud Messaging
+
+Use repository pattern.
+
+Separate:
+UI
+ViewModel
+Repository
+Data models
+Firebase services
+PDF generation
+Authentication
+Permission system
+
+Code must be modular and maintainable.
+
+==================================================
+36. ERROR HANDLING
+==================================================
+
+Handle:
+- Internet unavailable
+- Firebase errors
+- Invalid login
+- Missing data
+- Duplicate student
+- Duplicate admission number
+- Invalid marks
+- Invalid fee amount
+- PDF generation errors
+- Upload errors
+
+Show clear user-friendly messages.
+
+==================================================
+37. SUPER ADMIN INITIAL SETUP
+==================================================
+
+When the app is installed for the first time:
+
+Show:
+
+"School Setup"
+
+Super Admin enters:
+
+School Name
+Logo
+Address
+Contact
+Email
+Government Registration Number
+Academic Session
+Principal Name
+Principal Signature
+
+Then create Super Admin account.
+
+After setup, open Super Admin Dashboard.
+
+Do NOT create fake/demo students, teachers, marks or fees.
+
+The database must start empty except for required system configuration.
+
+==================================================
+38. FINAL REQUIREMENT
+==================================================
+
+Build the COMPLETE WORKING APPLICATION.
+
+Do not create a simple demo.
+Do not create a static UI prototype.
+Do not use fake buttons that do nothing.
+Do not leave major modules as placeholders.
+
+Every major button must perform its actual function.
+
+All CRUD operations must work:
+Create
+Read
+Update
+Delete
+
+Authentication, database, storage, notifications, permissions and PDF generation must be connected.
+
+The final project must be:
+
+- Buildable
+- Debuggable
+- Production-ready
+- Secure
+- Scalable
+- Android compatible
+- Easy to customize
+- Easy to maintain
+
+Provide complete source code with all required files, Firebase configuration instructions, Firestore security rules, Storage rules and exact APK build instructions.
+
+The final APK must be installable on an Android phone.
+
+IMPORTANT:
+Before generating code, create the complete project architecture and database schema. Then implement each module systematically. Ensure that all modules are connected to the same Firebase project and role-based security system.
